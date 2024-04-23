@@ -4,13 +4,11 @@
   become: yes
   become_user: root
   tasks:
-  remote_user: ec2-user
     - name: ensure wireshark is at the latest version
       yum:
         name: wireshark
         state: latest
    
-
 
 - name: update LB server
   hosts: lb
