@@ -41,11 +41,4 @@
       - name: set timezone
         timezone:
         name: Africa/Lagos
-
-
-
-
-
-       
-
-          
+         
