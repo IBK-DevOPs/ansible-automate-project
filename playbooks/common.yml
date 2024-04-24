@@ -21,13 +21,3 @@
       apt:
         name: wireshark
         state: latest
-
-
-       - name:
-         hosts: webservers, nfs, db, lb
-          become: yes
-
-         - name: create a directory
-          file:
-          path: /home/sample
-          state: directory
