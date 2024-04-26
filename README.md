@@ -80,6 +80,10 @@ Ansible-client-jump as jump-server
 
 ![alt text](<image/new repo on git name ansible-config-mgt.png>)
 
+6. Launch an instance on Ec2 and name it for 2 webservers, Loadbalancer (ubuntu) Database and NFS
+
+![alt text](<image/servers created.png>)
+
 6.  This repository will be connected to jenkins pipeline and store ansible files.
 
 
@@ -145,8 +149,6 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
 ### Check if jenkins has been installed, and it is running with this command
 
 ‘sudo systemctl status jenkins’
-
-![alt text](<image/Jenkins status.png>)
 
 ### On  Jenkins-Ansible instance, 
 
@@ -392,6 +394,12 @@ ansible_ssh_user=ec2-user
 ### We can now Create a directory and a file inside it Change timezone on all servers Run some shell  script
 
 ### Step 7 Update GIT with the latest code
+
+![alt text](<image/push to branch.png>)
+
+![alt text](<image/create pull request.png>)
+
+![alt text](<image/git is merged.png>)
 
 ### Now all of your directories and files live on your machine and you need to push changes made locally to GitHub.
 
