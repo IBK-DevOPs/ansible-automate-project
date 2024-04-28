@@ -506,8 +506,5 @@ playbooks/common.yml'
 
 ### Final architecture should  have this look.
 
-![alt text](<image/final ansible -architecture.png>)
-
-
-New webhook was created
+![alt text](<image/final ansible -architecture.p
 
