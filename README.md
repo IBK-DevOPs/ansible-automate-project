@@ -13,6 +13,7 @@ Test connection
 >>>>>>> 
 Continue with project 12
 on the same git hub repo
+reconfigure jenkins to reflect on git hub
 
 # Implementation Of Ansible For Automation
 
