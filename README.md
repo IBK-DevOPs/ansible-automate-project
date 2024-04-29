@@ -9,7 +9,10 @@ Test page on Jenkins
 
 Test connection
 >>>>>>> origin
-
+>>>>>>>
+>>>>>>> 
+Continue with project 12
+on the samw git hub
 
 # Implementation Of Ansible For Automation
 
