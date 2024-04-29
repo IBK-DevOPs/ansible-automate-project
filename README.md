@@ -12,7 +12,7 @@ Test connection
 >>>>>>>
 >>>>>>> 
 Continue with project 12
-on the samw git hub
+on the same git hub repo
 
 # Implementation Of Ansible For Automation
 
