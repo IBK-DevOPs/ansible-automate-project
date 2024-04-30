@@ -8,7 +8,6 @@
         name: wireshark
         state: latest
 
-
 - name: update LB server
   hosts: lb
   become: yes
